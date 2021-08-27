@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#f6ccffee"
+    tools:context="com.spark.ab.newspaper.MainActivity">
+    <TextView
+        android:id="@+id/Ttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Online News papers"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#004905"
+        />
+    <HorizontalScrollView
+        android:id="@+id/hsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ttext">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/hsvb1"
+            android:text="BD news 24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/hsvb2"
+            android:text="banglanews 24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/hsvb3"
+            android:text="The Report 24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/hsvb4"
+            android:text="DMP News"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/hsvb5"
+            android:text="Just News BD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/Toptext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hsv"
+        android:gravity="center"
+        android:text="News papers"
+        android:textColor="#0105f4"
+        android:textSize="20dp" />
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sv"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/Toptext">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            >
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prothom alo"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:layout_margin="6dp"
+                />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ittefaq"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:layout_marginBottom="6dp"
+                />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Samakal"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:layout_marginBottom="6dp"
+                />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jugantor"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:layout_marginBottom="6dp"
+                />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="kaler kantho"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:layout_marginBottom="6dp"
+                />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jai Jai Din"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:layout_marginBottom="6dp"
+                />
+
+            <Button
+                android:id="@+id/pwn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="#03581c"
+                android:text="Are you bored???" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/abt"
+                android:text="About Us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
